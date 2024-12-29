@@ -14,7 +14,7 @@ type Action =
   | { type: 'showError'; payload: string | null }
   | { type: 'startUpdate' }
   | { type: 'stopUpdate' }
-  | { type: 'selectTodo'; payload: number | null | undefined}
+  | { type: 'selectTodo'; payload: number | null | undefined }
   | { type: 'updateTodos'; payload: Todo }
   | { type: 'setFilter'; payload: Filter };
 
